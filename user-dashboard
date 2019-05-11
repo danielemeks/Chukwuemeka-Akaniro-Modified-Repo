@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+	
+
+	<meta name="apple-itunes-app" content="app-id=626731456"/>
+	<meta name="application-name" content="Ecwid Control Panel" />
+	<meta name="referrer" content="origin" />
+
+	<title>Ecwid Control Panel</title>
+
+	<link rel='stylesheet' href='https://d1hsze2rjr01lo.cloudfront.net/cp-css/CP-legacy.css?hc=-1439092709' />
+	<link rel='stylesheet' href='https://d1hsze2rjr01lo.cloudfront.net/cp-css/ecwid-app-ui.css?hc=-77450111' />
+	<link rel='stylesheet' href='https://d1hsze2rjr01lo.cloudfront.net/cp-css/CP.css?hc=1197948875' />
+	<link rel='stylesheet' href='https://d1hsze2rjr01lo.cloudfront.net/cp-css/CP-wizard.css?hc=735946434' />
+	<link rel='stylesheet' href='https://d1hsze2rjr01lo.cloudfront.net/cp-css/CP-billing.css?hc=-1666083012' />
+	<link rel='stylesheet' href='https://d1hsze2rjr01lo.cloudfront.net/cp-css/CP-pos.css?hc=-1765783773' />
+
+	
+	<link rel="shortcut icon" href="https://d1q3axnfhmyveb.cloudfront.net/static/br/26.5-49676-g2da6ce2638f/favicon.ico"/>
+	<link rel="shortcut icon" href="https://d1q3axnfhmyveb.cloudfront.net/static/br/26.5-49676-g2da6ce2638f/favicon64.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="https://d1q3axnfhmyveb.cloudfront.net/static/br/26.5-49676-g2da6ce2638f/favicon144.png"/>
+	<link rel="mask-icon" color="#007AC9" href="https://d1q3axnfhmyveb.cloudfront.net/static/br/26.5-49676-g2da6ce2638f/favicon-pin.svg"/>
+
+	
+	<script> window.ecwidIntercomSettings = {"number_of_installed_apps":0,"installed_apps":"","user_id":"17183723_owner","custom_launcher_selector":".custom-intercom-container","user_hash":"f73bde30cc06a89e8d5c042124d49f70d35024b6eaaf9dbecee0662568fe3097","name":"Chukwuemeka Akaniro","created_at":"1557599212","app_id":"ux7f0ki6","email":"danielemeks@gmail.com"}; </script><script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ux7f0ki6';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+	<script>window.ec = window.ec || {};window.ec.ambassador = window.ec.ambassador || {};window.ec.ambassador.lastname='Akaniro';window.ec.ambassador.country='NG';window.ec.ambassador.segment='Direct Refer a Friend';window.ec.ambassador.email='danielemeks@gmail.com';window.ec.ambassador.uniqueid='17183723 - p4828378';window.ec.ambassador.firstname='Chukwuemeka';</script>
+<script>(function (u, n, i, v, e, r, s, a, l) {u[r] = {}; u[r].uid = 'b82171f5-87f8-45a1-8d31-f65ac387a5db'; a = n.createElement(v); a.src = e + '/us-' + u[r].uid + '.js'; a.async = s; n.getElementsByTagName(i)[0].appendChild(a);})(window, document, 'head', 'script', 'https://cdn.getambassador.com', 'mbsy', true);</script>
+	<script>window.ecwidKissMetricsData = {};</script>
+	<script>
+	var injectRosettaRetry = 0;
+	function tryInjectRosettaScript(url) {
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.onerror = function() {
+			document.getElementsByTagName('head')[0].removeChild(script);
+			injectRosettaRetry++;
+			if (injectRosettaRetry < 10) {
+				setTimeout(tryInjectRosettaScript.bind(this, url), 200);
+			} else {
+				// ретраи кончились, пошлем ошибку в ga, если он есть на странице
+				if (!!window.ga) {
+                    window.ga('send', 'exception', {
+                        'exDescription': 'Translation with url ' + url + ' not loaded.',
+                        'exFatal': true
+                    });
+				}
+			}
+		};
+		script.onload = function () {
+			window.ecwid_elm_config = window.ecwid_elm_config || {};
+			window.ecwid_elm_config.translations_loaded = true;
+			window.ecwidEvents.trigger('TRANSLATIONS_LOADED');
+		}
+        script.src = url;
+		document.getElementsByTagName('head')[0].appendChild(script);
+	}
+	</script>
+	<script src="https://d1q3axnfhmyveb.cloudfront.net/rosetta/translations/backend/files/backend.en.-1819034238.js" onerror="tryInjectRosettaScript('https://d1q3axnfhmyveb.cloudfront.net/rosetta/translations/backend/files/backend.en.-1819034238.js')"></script>
+</head>
+
+<body style="margin:0px;padding:0px;height:100%" class="loading">
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KXZDWW"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXZDWW');</script>
+    <!-- End Google Tag Manager -->
+
+<div class="fonts-loader" style="width: 1px; height: 1px; left: -1000px; top: -1000px; position: absolute; overflow: hidden;">
+	<div style="font: 16px 'Open Sans'; font-weight: 300;">a</div>
+	<div style="font: 16px 'Open Sans'; font-weight: 400;">a</div>
+	<div style="font: 16px 'Open Sans'; font-weight: 600;">a</div>
+	<div style="font: 16px 'Open Sans'; font-weight: 700;">a</div>
+	<div style="font: 16px 'font_icons';">&#xe004;</div>
+</div>
+
+<table id="loader-old" style="width:100%; height:100%; z-index:10000000; display: none;">
+	<tr>
+		<td align="center" valign="middle">
+			<img style="border:none;vertical-align:middle" data-src="https://d1q3axnfhmyveb.cloudfront.net/static/br/26.5-49676-g2da6ce2638f/ajax-loader_cp.gif" id="oldLoader">
+		</td>
+	</tr>
+</table>
+
+<div class="loading-panel" id="loader" style="display: none;">
+	<div class="loader loader-mixed">
+		<div class="spinner-ball-outer"></div>
+		<div class="spinner-ball-inner"></div>
+	</div>
+	<h3 class="loading-info">Loading control panel</h3>
+</div>
+
+<script type="text/javascript">
+	if (location.search !== undefined) {
+		var bundleLoaderQuery = location.search;
+		bundleLoaderQuery += (bundleLoaderQuery === "") ? "?" : "&";
+		bundleLoaderQuery += "partner=";
+		document.write("<script src='../messages/26.5-49676-g2da6ce2638f/BundleLoader.js" + encodeURI(bundleLoaderQuery) + "' type='text/javascript'></" + "script>");
+	}
+	window.Ecwid = {MessageBundles:{}};
+	window.amazon_image_domain='https://dqzrr9k4bjpzk.cloudfront.net';
+	var gwtSignature = "fc288bd3b17eaa80064566b15339eaa5-0";
+</script>
+
+<script type="text/javascript" language="javascript">
+	function ecwid_createCookie(name,value,days) {
+		if (days) {
+			var date = new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+		}
+		else var expires = "";
+		document.cookie = name+"="+value+expires+"; path=/";
+	}
+
+	function ecwid_readCookie(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	}
+	var ecwid_static_url = 'https://d1q3axnfhmyveb.cloudfront.net/static/br/26.5-49676-g2da6ce2638f/';
+	var ecwid_new_wysiwyg_enabled = true;
+	var ecwid_logout_url = null;
+	var ecwid_hidden_dialogs = '';
+	var ecwid_onboarding_wizard_enabled = true;
+	var ecwid_use_new_loader = !false && document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1");
+	var ecwid_loader_logo_url = 'https://d1q3axnfhmyveb.cloudfront.net/static/br/26.5-49676-g2da6ce2638f/ajax-loader_cp.gif';
+	var ecwid_store_block_info = {"blockReasons":[],"lifetimeGmv":0.0};
+	var ecwid_venera_cdn_host_url = 'https://d1q3axnfhmyveb.cloudfront.net/venera';
+	var ecwid_venera_hash = 'd2412c2cac1cda117703e88509b574e2';
+
+	function ecwid_getUrlParam(url, paramName) {
+		var url = url.split("#");
+		url = url[0];
+		var query = url.split("?");
+		if (query.length > 1) {
+			var params = query[1].split("&");
+			for (var i = 0; i < params.length; i++) {
+				var paramPair = params[i].split("=");
+				if (paramPair[0] == paramName) {
+					return paramPair.length > 1 ? paramPair[1] : "";
+				}
+			}
+		}
+		return undefined;
+	}
+
+	function ecwid_addUrlParam(url, paramPair) {
+		if (url.indexOf("?") != -1) {
+			url = url.replace("?", "?" + paramPair + "&");
+		} else if (url.indexOf("#") != -1) {
+			url = url.replace("#", "?" + paramPair + "#");
+		} else {
+			url += "?" + paramPair;
+		}
+		return url;
+	}
+
+	function ecwid_doRedirect(url) {
+		// Preserve inline parameter if it exists in current query string
+		var inlineParam = ecwid_getUrlParam(window.location.href, "inline");
+		if (inlineParam != undefined) {
+			url = ecwid_addUrlParam(url, "inline=" + inlineParam);
+		}
+		if (window.console) {
+			window.console.log("doRedirect to url: " + url);
+		}
+		location.replace(url);
+		document.body.style.display = "none";
+		setTimeout(function() {
+			location.reload(true);
+		}, 300);
+	}
+
+	function ecwid_showElement(el) {
+		if (el.style.removeProperty) {
+			el.style.removeProperty("display");
+		} else {
+			el.style.removeAttribute("display");
+		}
+	}
+
+	function ecwid_exchangeSrcAttr(el) {
+		el.src = el.getAttribute("data-src");
+	}
+
+	function ecwid_initLoader() {
+		if (ecwid_use_new_loader) {
+			ecwid_showElement(document.getElementById("loader"));
+		} else {
+			ecwid_exchangeSrcAttr(document.getElementById("oldLoader"));
+			ecwid_showElement(document.getElementById("loader-old"));
+		}
+	}
+
+	window.ecwidReginaCsrfToken = "c8b760dc3b9fd41cc9b0cbad233e5866";
+
+    function ecwid_initMobileJsApi() {
+		window.EcwidControlPanel = window.EcwidControlPanel || {};
+		window.EcwidControlPanel.onSavePageDataRequired = function(changePageDataCallback) {
+			window.EcwidControlPanel.changePageDataCallback = changePageDataCallback;
+		}
+		window.EcwidControlPanel.onSavePageData = function(savePageDataCallback) {
+			window.EcwidControlPanel.savePageDataCallback = savePageDataCallback;
+		}
+		window.EcwidControlPanel.onRevertUnsavedPageData = function(revertUnsavedPageDataCallback) {
+			window.EcwidControlPanel.revertUnsavedPageDataCallback = revertUnsavedPageDataCallback;
+		}
+    }
+</script>
+<script type="text/javascript" src="https://d1q3axnfhmyveb.cloudfront.net/static/br/26.5-49676-g2da6ce2638f/ru.cdev.xnext.backend.CP.nocache.js"></script>
+
+
+<script type="text/javascript">
+	ecwid_initLoader();
+	ecwid_initMobileJsApi();
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+</html>
